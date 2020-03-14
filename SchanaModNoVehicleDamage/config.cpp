@@ -2,10 +2,7 @@ class CfgPatches
 {
 	class SchanaModNoVehicleDamage
 	{
-		requiredAddons[]=
-		{
-			// ""
-		};
+		requiredAddons[] = {};
 	};
 };
 
@@ -20,7 +17,7 @@ class CfgMods
 			class worldScriptModule		
             {
                 value = "";
-                files[] = {"SchanaModNoVehicleDamage/World/entities/vehicles"};
+                files[] = {"SchanaModNoVehicleDamage/World"};
             };
         };
     };
